@@ -57,7 +57,7 @@ const StarRating: React.FC<BookProps> = ({ bookId, starRating, setSelectedBooks 
     <div className="star-rating">
       {[...Array(5)].map((star, index) => {
         index += 1;
-
+        console.log(star);
         return (
           <button
             type="button"
