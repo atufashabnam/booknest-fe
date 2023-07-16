@@ -1,0 +1,29 @@
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .on {
+    color: #000;
+  }
+  .off {
+    color: #ccc;
+  }
+
+.delete-icon {
+  color: #E50815;
+  background-color: white;
+}
+
+.notes-icon, .star-rating, .star {
+  background-color: white;
+}
+
+.show {
+  background-color: transparent;
+}
+
+.modal-header, .modal-body, .modal-title, .modal-content {
+  background-color: white;
+}
